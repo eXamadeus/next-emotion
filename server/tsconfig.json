@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "target": "es2017",
+    "isolatedModules": false,
+    "lib": [
+      // This is here only as a workaround
+      // for https://github.com/DefinitelyTyped/DefinitelyTyped/issues/36082
+      // It shouldn't be here, but I can't find anything better for now...
+      "dom",
+      "es2017",
+      // Needed because of https://github.com/apollographql/graphql-subscriptions/issues/83
+      "esnext.asynciterable"
+    ]
+  },
+  "include": ["**/*.ts"]
+}
