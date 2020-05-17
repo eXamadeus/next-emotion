@@ -16,3 +16,5 @@ export const Example = ({ value = 'Example Component', css }: ExampleProps) => (
     {value}
   </div>
 )
+
+Example.displayName = 'Example'
