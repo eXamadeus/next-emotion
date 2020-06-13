@@ -76,7 +76,7 @@
     "react-docgen-typescript-loader": "^3.7.2",
     "react-is": "^16.13.1",
     "regenerator-runtime": "^0.13.5",
-    "ts-node": "^8.10.1",
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.2",
     "webpack": "^4.43.0"
   }
