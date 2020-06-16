@@ -97,7 +97,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: '**/*.stories.tsx',
+      files: '**/*.{stories,test}.tsx',
       rules: {
         'import/no-extraneous-dependencies': 'off',
       },
