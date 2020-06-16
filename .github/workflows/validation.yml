@@ -2,7 +2,7 @@ name: 'Validation'
 on: push
 
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-latest
 
     steps:
