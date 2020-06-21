@@ -1,9 +1,8 @@
-version: 2
-updates:
-  - package-ecosystem: 'npm'
+version: 1
+update_configs:
+  - package_manager: 'javascript'
     directory: '/'
-    schedule:
-      interval: 'weekly'
-    labels:
+    update_schedule: 'weekly'
+    default_labels:
       - 'dependencies'
       - 'automerge'
