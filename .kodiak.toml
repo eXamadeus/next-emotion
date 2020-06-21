@@ -4,3 +4,11 @@ version = 1
 merge.delete_branch_on_merge = true
 merge.notify_on_conflict = true
 
+[approve]
+auto_approve_usernames = ["dependabot","dependabot-preview"]
+
+[merge.message]
+title = "pull_request_title" # default: "github_default"
+body = "pull_request_body" # default: "github_default"
+# remove html comments to auto remove PR templates.
+strip_html_comments = true # default: false
