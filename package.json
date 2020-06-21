@@ -54,7 +54,7 @@
     "@types/node": "^12.12.31",
     "@types/styled-jsx": "^2.2.8",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.25.0",
+    "@typescript-eslint/parser": "^2.34.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-emotion": "^10.0.33",
     "chromatic": "^4.0.3",
