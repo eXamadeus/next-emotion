@@ -49,7 +49,7 @@
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.19",
     "@testing-library/react": "^10.3.0",
-    "@types/jest": "^26.0.3",
+    "@types/jest": "^26.0.4",
     "@types/next": "^9.0.0",
     "@types/node": "^14.0.22",
     "@types/styled-jsx": "^2.2.8",
