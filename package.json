@@ -48,7 +48,7 @@
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.19",
-    "@testing-library/react": "^10.4.6",
+    "@testing-library/react": "^10.4.7",
     "@types/jest": "^26.0.4",
     "@types/next": "^9.0.0",
     "@types/node": "^14.0.23",
