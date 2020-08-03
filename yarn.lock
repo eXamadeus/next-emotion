@@ -2556,10 +2556,10 @@
   dependencies:
     next "*"
 
-"@types/node@*", "@types/node@^14.0.26":
-  version "14.0.26"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.26.tgz#22a3b8a46510da8944b67bfc27df02c34a35331c"
-  integrity sha512-W+fpe5s91FBGE0pEa0lnqGLL4USgpLgs4nokw16SrBBco/gQxuua7KnArSEOd5iaMqbbSHV10vUDkJYJJqpXKA==
+"@types/node@*", "@types/node@^14.0.27":
+  version "14.0.27"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.27.tgz#a151873af5a5e851b51b3b065c9e63390a9e0eb1"
+  integrity sha512-kVrqXhbclHNHGu9ztnAwSncIgJv/FaxmzXJvGXNdcCpV1b8u1/Mi6z6m0vwy0LzKeXFTPLH0NzwmoJ3fNCIq0g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -4445,10 +4445,10 @@ chownr@^1.1.1, chownr@^1.1.2:
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.4.tgz#6fc9d7b42d32a583596337666e7d08084da2cc6b"
   integrity sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==
 
-chromatic@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-5.0.0.tgz#64fcdd26e76c9a9d311d781e91d7532d2a0abd2a"
-  integrity sha512-jreBi7r6BFcJ5o30O9LQpZI/9ofNWAOZ6R8yX0U2EzxLGXA3yC8aiwkS73EDVUPwZC5qUvWm5pqzvD0FCIAHiw==
+chromatic@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/chromatic/-/chromatic-5.1.0.tgz#98e1991f8be565b5e64b1d158ccf4c9258e9ff8d"
+  integrity sha512-8hmRRayRKElR6+k4R1HZ3mq95zeJhzE2gxMQWrurbUl5tWG0n2JIuhsHS4vxnaFw/iVqMk10ORLtZ7StaHApUQ==
   dependencies:
     "@babel/preset-react" "^7.9.4"
     "@babel/runtime" "^7.9.2"
@@ -4459,7 +4459,6 @@ chromatic@^5.0.0:
     cross-spawn "^7.0.2"
     debug "^4.1.1"
     dotenv "^8.2.0"
-    enhanced-resolve "^4.1.1"
     env-ci "^5.0.2"
     esm "^3.2.25"
     execa "^4.0.0"
@@ -5792,7 +5791,7 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@^4.1.0, enhanced-resolve@^4.1.1, enhanced-resolve@^4.3.0:
+enhanced-resolve@^4.1.0, enhanced-resolve@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.3.0.tgz#3b806f3bfafc1ec7de69551ef93cca46c1704126"
   integrity sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
