@@ -3,6 +3,7 @@
 A simple template for starting up an application with the following stack:
 
 - [Next.js](https://nextjs.org/)
+- [Emotion](https://emotion.sh/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [Storybook](https://storybook.js.org/)
