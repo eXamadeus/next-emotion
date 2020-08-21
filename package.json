@@ -46,7 +46,7 @@
     "@storybook/addon-actions": "^6.0.10",
     "@storybook/addon-docs": "^5.3.19",
     "@storybook/addon-links": "^6.0.10",
-    "@storybook/addons": "^5.3.18",
+    "@storybook/addons": "^6.0.16",
     "@storybook/react": "^5.3.19",
     "@testing-library/react": "^10.4.8",
     "@types/jest": "^26.0.10",
