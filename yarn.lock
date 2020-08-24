@@ -2632,16 +2632,16 @@
     ts-dedent "^1.1.1"
     util-deprecate "^1.0.2"
 
-"@storybook/addon-links@^6.0.10":
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.0.10.tgz#6637a5b29e6c39fa647ad77d0ab49a808cec5a1a"
-  integrity sha512-1M4nTb9GwY9pa9yKfi5jdNb5RNmCTgiVNA4DDVogTsG1NIy0rRSZ9zObZfeExk6g2VqQBYYMsEXnUaVLSHfqHw==
+"@storybook/addon-links@^6.0.16":
+  version "6.0.16"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-6.0.16.tgz#2f81545f1593718cf720cd399635f890a1f3c916"
+  integrity sha512-5rQLzrjqQWmukBAIYghrQKZUrz/X9bx83DSh0W3RH+y1X+MJguah0WxbARePtJxggwb0s2rkoE/oR/uFePO+Pg==
   dependencies:
-    "@storybook/addons" "6.0.10"
-    "@storybook/client-logger" "6.0.10"
-    "@storybook/core-events" "6.0.10"
+    "@storybook/addons" "6.0.16"
+    "@storybook/client-logger" "6.0.16"
+    "@storybook/core-events" "6.0.16"
     "@storybook/csf" "0.0.1"
-    "@storybook/router" "6.0.10"
+    "@storybook/router" "6.0.16"
     "@types/qs" "^6.9.0"
     core-js "^3.0.1"
     global "^4.3.2"
