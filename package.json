@@ -44,7 +44,7 @@
     "@babel/core": "^7.11.4",
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@storybook/addon-actions": "^6.0.20",
-    "@storybook/addon-docs": "^6.0.16",
+    "@storybook/addon-docs": "^6.0.20",
     "@storybook/addon-links": "^6.0.20",
     "@storybook/addons": "^6.0.20",
     "@storybook/react": "^6.0.20",
