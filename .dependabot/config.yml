@@ -5,6 +5,7 @@ update_configs:
     update_schedule: 'weekly'
     default_labels:
       - 'dependencies'
+      - 'automerge'
     automerged_updates:
       - match:
           dependency_type: 'development'
