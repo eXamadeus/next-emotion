@@ -34,7 +34,7 @@
     "*.{ts,tsx,js,jsx,md,yaml,yml,json}": "prettier --write --config .prettierrc.yaml"
   },
   "dependencies": {
-    "@emotion/core": "^10.0.35",
+    "@emotion/core": "^10.1.1",
     "@emotion/styled": "^10.0.27",
     "next": "^9.5.5",
     "react": "^16.14.0",
