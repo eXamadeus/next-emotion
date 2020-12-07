@@ -43,7 +43,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@emotion/babel-preset-css-prop": "^10.2.0",
-    "@storybook/addon-actions": "^6.1.9",
+    "@storybook/addon-actions": "^6.1.10",
     "@storybook/addon-docs": "^6.1.9",
     "@storybook/addon-links": "^6.1.10",
     "@storybook/addons": "^6.1.2",
