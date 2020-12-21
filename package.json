@@ -43,7 +43,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@emotion/babel-preset-css-prop": "^10.2.0",
-    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-actions": "^6.1.11",
     "@storybook/addon-docs": "^6.1.11",
     "@storybook/addon-links": "^6.1.11",
     "@storybook/addons": "^6.1.2",
@@ -57,7 +57,7 @@
     "@typescript-eslint/parser": "^2.34.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-emotion": "^11.0.0",
-    "chromatic": "^5.4.0",
+    "chromatic": "^5.5.0",
     "eslint": "^6.8.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-config-prettier": "^6.15.0",
