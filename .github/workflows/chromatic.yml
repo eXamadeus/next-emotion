@@ -1,4 +1,5 @@
 name: 'Chromatic'
+environment: DEV
 on: push
 
 jobs:
