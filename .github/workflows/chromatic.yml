@@ -2,7 +2,7 @@ name: 'Chromatic'
 on: push
 
 jobs:
-  test:
+  deploy-chromatic:
     runs-on: ubuntu-latest
     environment: DEV
 
