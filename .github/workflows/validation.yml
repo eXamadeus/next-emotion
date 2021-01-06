@@ -15,10 +15,11 @@ jobs:
         with:
           node-version: '12.16.1'
       # cache yarn packages
-      - uses: c-hive/gha-yarn-cache@v1
+      - name: Restore Yarn cache
+        uses: c-hive/gha-yarn-cache@v1
       # install packages and build application
       - name: Install dependencies via Yarn
         run: yarn install
       # run validation tests
-      - name: Run application validation
+      - name: Validate application
         run: yarn validate
