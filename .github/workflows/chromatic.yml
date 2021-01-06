@@ -4,7 +4,6 @@ on: push
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    environment: DEV
 
     steps:
       - name: Checkout source code
