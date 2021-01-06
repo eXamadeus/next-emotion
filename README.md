@@ -1,3 +1,5 @@
+[![Storybook](https://img.shields.io/badge/Chromatic-Storybook-green)](https://master--5ff5b5e3816aa60021b27e34.chromatic.com/) [![Chromatic Library](https://img.shields.io/badge/Chromatic-Library-green)](https://www.chromatic.com/library?appId=5ff5b5e3816aa60021b27e34&branch=master)
+ 
 # Next.js Template
 
 A simple template for starting up an application with the following stack:
@@ -6,8 +8,8 @@ A simple template for starting up an application with the following stack:
 - [Emotion](https://emotion.sh/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
-- [Storybook](https://storybook.js.org/)
-- [Chromatic](https://www.chromatic.com/)
+- [Storybook](https://storybook.js.org/) - [Deployed storybook example](https://master--5ff5b5e3816aa60021b27e34.chromatic.com/)
+- [Chromatic](https://www.chromatic.com/) - [Deployed library example](https://chromatic.com/library?appId=5ff5b5e3816aa60021b27e34&branch=master)
 - [GitHub](https://github.com/)
 - [Kodiak](https://kodiakhq.com/)
 - [Dependabot](https://dependabot.com/)
