@@ -21,6 +21,26 @@ A simple template for starting up an application with the following stack:
 - [Prettier](https://prettier.io/)
 - [Husky](https://typicode.github.io/husky/#/)
 
+## Installation
+
+You must have `yarn` and `node>=12.16.1` installed first. To install the dependencies run:
+
+```shell
+yarn install
+```
+
+To start the application in development mode run:
+
+```shell
+yarn dev
+```
+
+To run a static version of the site locally run:
+
+```shell
+yarn static
+```
+
 ## Scripts provided
 
 - `install` install dependencies
@@ -49,6 +69,5 @@ A simple template for starting up an application with the following stack:
 
 To enable Chromatic, follow the following steps:
 
-1. Rename `.github/workflows/chromatic.yml.template` to `.github/workflows/chromatic.yml`
-2. In your GitHub account, set the `CHROMATIC_PROJECT_TOKEN` secret
+1. In your GitHub account, set the `CHROMATIC_PROJECT_TOKEN` secret
    <img width="1061" alt="Image 2020-05-09 at 9 14 37 PM" src="https://user-images.githubusercontent.com/37161095/81488693-24b7b880-923a-11ea-9be8-c9dedc0b4380.png">
