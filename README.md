@@ -21,6 +21,26 @@ A simple template for starting up an application with the following stack:
 - [Prettier](https://prettier.io/)
 - [Husky](https://typicode.github.io/husky/#/)
 
+## Installation
+
+You must have `yarn` and `node>=12.16.1` installed first. To install the dependencies run:
+
+```shell
+yarn install
+```
+
+To start the application in development mode run:
+
+```shell
+yarn dev
+```
+
+To run a static version of the site locally run:
+
+```shell
+yarn static
+```
+
 ## Scripts provided
 
 - `install` install dependencies
