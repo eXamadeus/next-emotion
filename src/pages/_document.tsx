@@ -4,7 +4,7 @@ import * as React from 'react'
 import { GlobalStyles } from '../styles/global'
 
 class MyDocument extends Document {
-  public render() {
+  public render(): React.ReactElement {
     return (
       <Html lang={'en'}>
         <Head>

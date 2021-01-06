@@ -1,8 +1,8 @@
-import { AppProps } from 'next/app'
+import { AppComponent } from 'next/dist/next-server/lib/router/router'
 import Head from 'next/head'
 import * as React from 'react'
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App: AppComponent = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
