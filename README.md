@@ -9,6 +9,8 @@ A simple template for starting up an application with the following stack:
 - [Storybook](https://storybook.js.org/)
 - [Chromatic](https://www.chromatic.com/)
 - [GitHub](https://github.com/)
+- [Kodiak](https://kodiakhq.com/)
+- [Dependabot](https://dependabot.com/)
 
 ## Setup
 
