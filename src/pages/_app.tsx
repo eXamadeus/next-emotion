@@ -6,7 +6,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
-        <title>Next.js Application</title>
+        <title>Next.js Template</title>
       </Head>
       <Component {...pageProps} />
     </>

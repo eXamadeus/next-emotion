@@ -11,7 +11,7 @@ export type ExampleProps = {
   css?: Style
 }
 
-export const Example = ({ value = 'Example Component', css }: ExampleProps) => (
+export const Example: React.FunctionComponent<ExampleProps> = ({ value = 'Example Component', css }) => (
   <div css={exampleCss(css)} aria-label={value}>
     {value}
   </div>
