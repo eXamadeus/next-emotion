@@ -2,7 +2,7 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import * as React from 'react'
 
-export default ({ Component, pageProps }: AppProps) => {
+const App = ({ Component, pageProps }: AppProps) => {
   return (
     <>
       <Head>
@@ -12,3 +12,5 @@ export default ({ Component, pageProps }: AppProps) => {
     </>
   )
 }
+
+export default App
