@@ -2,33 +2,27 @@ name: 'Chromatic'
 on: push
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     environment: DEV
 
     steps:
-      # checkout code
-      - uses: actions/checkout@v1
+      - name: Checkout source code
+        uses: actions/checkout@v1
       # setup node
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: '12.16.1'
       # cache yarn packages
-      - name: Get yarn cache directory path
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-      - uses: actions/cache@v1
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-        with:
-          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+      - name: Restore Yarn cache
+        uses: c-hive/gha-yarn-cache@v1
       # install packages and build application
-      - run: yarn
+      - name: Install dependencies via Yarn
+        run: yarn install
       # run chromatic
-      - uses: chromaui/action@v1
+      - name: Run Chromatic
+        uses: chromaui/action@v1
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           token: ${{ secrets.GITHUB_TOKEN }}
