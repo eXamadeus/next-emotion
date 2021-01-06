@@ -1,10 +1,10 @@
 name: 'Chromatic'
-environment: DEV
 on: push
 
 jobs:
   test:
     runs-on: ubuntu-latest
+    environment: DEV
 
     steps:
       # checkout code
