@@ -71,3 +71,13 @@ To enable Chromatic, follow the following steps:
 
 1. In your GitHub account, set the `CHROMATIC_PROJECT_TOKEN` secret
    <img width="1061" alt="Image 2020-05-09 at 9 14 37 PM" src="https://user-images.githubusercontent.com/37161095/81488693-24b7b880-923a-11ea-9be8-c9dedc0b4380.png">
+
+## Screenshots
+
+### Chromatic - Storybook
+
+![Storybook Example](https://user-images.githubusercontent.com/37161095/103788866-55403400-500d-11eb-9cdd-79df7cde6683.png)
+
+### Chromatic - Library
+
+![Chromatic Library Example](https://user-images.githubusercontent.com/37161095/103789042-8caee080-500d-11eb-91fc-3283c6a5b07b.png)
