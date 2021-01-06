@@ -23,7 +23,8 @@ A simple template for starting up an application with the following stack:
 - `build` build next.js application
 - `export` export next.js static application to `./out`
 - `static` build/export/serve a static next.js application @ http://localhost:3000/
-- `validate` run tests/linter/type-checks/format-checks and build the application (the build checks for transpiler errors)
+- `validate` run tests/linter/type-checks/format-checks and build the application (the build checks for transpiler
+  errors)
 - `test` run jest tests
 - `lint` run linter with `--fix`
 - `lint:test` run linter
