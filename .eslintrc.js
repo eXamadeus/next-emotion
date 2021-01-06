@@ -7,7 +7,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'jest', 'react-hooks', 'import', 'emotion', 'unused-imports'],
+  plugins: ['@typescript-eslint', 'jest', 'react-hooks', 'import', '@emotion', 'unused-imports'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:jest/recommended',
