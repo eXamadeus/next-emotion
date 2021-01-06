@@ -11,6 +11,32 @@ A simple template for starting up an application with the following stack:
 - [GitHub](https://github.com/)
 - [Kodiak](https://kodiakhq.com/)
 - [Dependabot](https://dependabot.com/)
+- [Yarn](https://yarnpkg.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Husky](https://typicode.github.io/husky/#/)
+
+## Scripts provided
+
+- `install` install dependencies
+- `dev` run in dev mode with hot-module replacement @ http://localhost:3000/
+- `build` build next.js application
+- `export` export next.js static application to `./out`
+- `static` build/export/serve a static next.js application @ http://localhost:3000/
+- `validate` run tests/linter/type-checks/format-checks and build the application (the build checks for transpiler
+  errors)
+- `test` run jest tests
+- `lint` run linter with `--fix`
+- `lint:test` run linter
+- `format` format code w/ prettier
+- `format:test` check for code formatting w/ prettier (won't modify code)
+- `storybook` runs storybook @ http://localhost:6006
+- `storybook:build` builds storybook output for static deployment (necessary for Chromatic)
+
+## Husky Hooks
+
+- `pre-commit` lints the staged files and formats them automatically
+- `pre-push` runs the validate script
 
 ## Setup
 
