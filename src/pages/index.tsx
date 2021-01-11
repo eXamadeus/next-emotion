@@ -1,5 +1,16 @@
+import { css } from '@emotion/core'
 import React from 'react'
 
-import { Example } from '../components/Example/Example.component'
+import { Title } from '../components/Title/Title.component'
 
-export default (): React.ReactNode => <Example />
+export default (): React.ReactNode => (
+  <div
+    css={css`
+       {
+        display: flex;
+        align-items: center;
+      }
+    `}>
+    <Title content={'Next.js Template'} />
+  </div>
+)
