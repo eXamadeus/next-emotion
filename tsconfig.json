@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -14,6 +15,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "cypress"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }
