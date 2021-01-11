@@ -10,6 +10,7 @@
 /storybook-static
 
 # misc
+**/tsconfig.json
 .DS_Store
 .env*
 .idea/

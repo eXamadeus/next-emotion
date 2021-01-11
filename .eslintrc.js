@@ -102,5 +102,12 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
       },
     },
+    // Cypress
+    {
+      files: 'cypress/**',
+      rules: {
+        'jest/expect-expect': 'off',
+      },
+    },
   ],
 }
