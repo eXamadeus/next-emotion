@@ -13,6 +13,7 @@
     "dev": "next dev",
     "build": "next build",
     "test": "jest",
+    "e2e": "cypress run",
     "export": "next export",
     "start": "next start",
     "static": "yarn build && next export && ts-node --files --project server/tsconfig.json server/index.ts",
@@ -36,6 +37,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.1.1",
+    "@emotion/react": "^11.1.4",
     "@emotion/styled": "^10.0.27",
     "next": "^10.0.4",
     "react": "^17.0.1",
