@@ -13,6 +13,7 @@
     "dev": "next dev",
     "build": "next build",
     "test": "jest",
+    "e2e": "cypress run",
     "export": "next export",
     "start": "next start",
     "static": "yarn build && next export && ts-node --files --project server/tsconfig.json server/index.ts",
@@ -36,6 +37,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.1.1",
+    "@emotion/react": "^11.1.4",
     "@emotion/styled": "^10.0.27",
     "next": "^10.0.5",
     "react": "^17.0.1",
@@ -43,7 +45,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
-    "@emotion/babel-preset-css-prop": "^10.2.1",
+    "@emotion/babel-preset-css-prop": "^11.0.0",
     "@emotion/eslint-plugin": "^11.0.0",
     "@storybook/addon-actions": "^6.1.11",
     "@storybook/addon-docs": "^6.1.11",
