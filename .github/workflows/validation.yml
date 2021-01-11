@@ -1,5 +1,9 @@
 name: 'Validation'
-on: push
+on:
+  # Trigger the workflow on push or pull request, but only for the main branch
+  pull_request:
+    branches:
+      - main
 
 jobs:
   validate:
@@ -10,7 +14,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v1
       # setup node
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js
         uses: actions/setup-node@v1
         with:
           node-version: '12.16.1'

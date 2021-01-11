@@ -1,4 +1,4 @@
-name: 'Chromatic'
+name: 'Cypress'
 on:
   # Trigger the workflow on push or pull request, but only for the main branch
   push:
@@ -27,9 +27,5 @@ jobs:
       - name: Install dependencies via Yarn
         run: yarn install
       # run chromatic
-      - name: Run Chromatic
-        uses: chromaui/action@v1
-        with:
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          buildScriptName: 'storybook:build'
+      - name: Run Cypress
+        run: yarn cypress run
