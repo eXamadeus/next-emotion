@@ -26,5 +26,5 @@ jobs:
       - name: Install dependencies via Yarn
         run: yarn install
       # run chromatic
-      - name: Run Cypress
-        run: yarn cypress run
+      - name: Run E2E (Cypress)
+        run: yarn e2e
