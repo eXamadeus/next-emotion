@@ -3,7 +3,10 @@
 
 # Next.js Template
 
-A simple template for starting up an application with the following stack:
+![Screen Recording 2021-01-11 at 10 30 27 AM](https://user-images.githubusercontent.com/37161095/104201772-1852b380-53f8-11eb-9a78-16799e6d44eb.gif)
+
+Want a template application with all 100's on Lighthouse? Look no further, this is a simple template application with
+the following stack:
 
 - [Next.js](https://nextjs.org/)
 - [Emotion](https://emotion.sh/)
