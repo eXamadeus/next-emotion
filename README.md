@@ -9,6 +9,7 @@ A simple template for starting up an application with the following stack:
 - [Emotion](https://emotion.sh/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
+- [Cypress](https://cypress.io/)
 - [Storybook](https://storybook.js.org/) -
   [Deployed storybook example](https://master--5ff5b5e3816aa60021b27e34.chromatic.com/)
 - [Chromatic](https://www.chromatic.com/) -
@@ -41,6 +42,20 @@ To run a static version of the site locally run:
 yarn static
 ```
 
+## Testing
+
+Run unit tests:
+
+```shell
+yarn test
+```
+
+Run e2e tests:
+
+```shell
+yarn cypress run
+```
+
 ## Scripts provided
 
 - `install` install dependencies
@@ -51,6 +66,7 @@ yarn static
 - `validate` run tests/linter/type-checks/format-checks and build the application (the build checks for transpiler
   errors)
 - `test` run jest tests
+- `cypress` run cypress
 - `lint` run linter with `--fix`
 - `lint:test` run linter
 - `format` format code w/ prettier
@@ -67,10 +83,8 @@ yarn static
 
 ### Chromatic & Github
 
-To enable Chromatic, follow the following steps:
-
-1. In your GitHub account, set the `CHROMATIC_PROJECT_TOKEN` secret
-   <img width="1061" alt="Image 2020-05-09 at 9 14 37 PM" src="https://user-images.githubusercontent.com/37161095/81488693-24b7b880-923a-11ea-9be8-c9dedc0b4380.png">
+To enable Chromatic, set the `CHROMATIC_PROJECT_TOKEN` secret:
+<img width="1061" alt="Image 2020-05-09 at 9 14 37 PM" src="https://user-images.githubusercontent.com/37161095/81488693-24b7b880-923a-11ea-9be8-c9dedc0b4380.png">
 
 ## Screenshots
 
