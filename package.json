@@ -53,7 +53,7 @@
     "@testing-library/dom": "^7.29.2",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
-    "@types/jest": "^26.0.19",
+    "@types/jest": "^26.0.20",
     "@types/next": "^9.0.0",
     "@types/node": "^14.14.19",
     "@types/styled-jsx": "^2.2.8",
