@@ -8,7 +8,6 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
-
     steps:
       # checkout code
       - name: Checkout source code

@@ -9,9 +9,8 @@ on:
       - main
 
 jobs:
-  deploy:
+  e2e:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout source code
         uses: actions/checkout@v1
