@@ -1,15 +1,17 @@
-name: 'Validation'
+name: 'Cypress'
 on:
   # Trigger the workflow on push or pull request, but only for the main branch
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
 
 jobs:
-  validate:
+  e2e:
     runs-on: ubuntu-latest
     steps:
-      # checkout code
       - name: Checkout source code
         uses: actions/checkout@v1
       # setup node
@@ -23,6 +25,6 @@ jobs:
       # install packages and build application
       - name: Install dependencies via Yarn
         run: yarn install
-      # run validation tests
-      - name: Validate application
-        run: yarn validate
+      # run chromatic
+      - name: Run Cypress
+        run: yarn cypress run
