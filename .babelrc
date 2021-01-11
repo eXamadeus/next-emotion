@@ -2,10 +2,10 @@
   "presets": ["next/babel", "@emotion/babel-preset-css-prop"],
   "env": {
     "production": {
-      "plugins": ["emotion"]
+      "plugins": ["@emotion"]
     },
     "development": {
-      "plugins": [["emotion", { "sourceMap": true }]]
+      "plugins": [["@emotion", { "sourceMap": true }]]
     }
   }
 }

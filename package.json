@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
+    "@emotion/babel-plugin": "^11.1.2",
     "@emotion/babel-preset-css-prop": "^10.2.1",
     "@emotion/eslint-plugin": "^11.0.0",
     "@storybook/addon-actions": "^6.1.11",
@@ -60,7 +61,6 @@
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "babel-loader": "^8.2.2",
-    "babel-plugin-emotion": "^11.0.0",
     "chromatic": "^5.5.0",
     "cypress": "^6.2.1",
     "eslint": "^7.17.0",
