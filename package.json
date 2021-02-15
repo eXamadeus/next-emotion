@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.1.1",
-    "@emotion/react": "^11.1.4",
+    "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
     "next": "^10.0.6",
     "react": "^17.0.1",
