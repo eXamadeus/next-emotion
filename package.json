@@ -61,7 +61,7 @@
     "@types/next": "^9.0.0",
     "@types/node": "^14.14.22",
     "@types/styled-jsx": "^2.2.8",
-    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.14.2",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.6.2",
