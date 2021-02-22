@@ -47,7 +47,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@emotion/babel-plugin": "^11.1.2",
-    "@emotion/babel-preset-css-prop": "^11.0.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
     "@emotion/eslint-plugin": "^11.0.0",
     "@storybook/addon-actions": "^6.1.17",
     "@storybook/addon-docs": "^6.1.18",
