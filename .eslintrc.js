@@ -8,14 +8,7 @@ module.exports = {
     },
   },
   plugins: ['@typescript-eslint', 'jest', 'react-hooks', 'import', '@emotion', 'unused-imports'],
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
-    'prettier',
-    'prettier/react',
-    'prettier/@typescript-eslint',
-    'plugin:react/recommended',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:jest/recommended', 'prettier', 'plugin:react/recommended'],
   env: {
     node: true,
     browser: true,
