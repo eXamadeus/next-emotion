@@ -43,6 +43,14 @@ export const GlobalStyles: React.FunctionComponent = () => (
         html * {
           font-family: Gilroy-Light, Arial, sans-serif;
         }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+          margin: 0;
+        }
       `}
     />
     <link rel='preload' href='/fonts/Gilroy-Light/font.woff2' as='font' type='font/woff2' crossOrigin={''} />
