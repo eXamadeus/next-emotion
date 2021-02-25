@@ -54,6 +54,17 @@ module.exports = {
     // see https://github.com/airbnb/javascript/issues/1271 for more info
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
 
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          // Emotion 11 is a mess...let's stay with 10 for now...
+          { name: '@emotion/react', message: 'Please import from "@emotion/core" instead.' },
+          { name: '@emotion/css', message: 'Please import from "@emotion/core" instead.' },
+        ],
+      },
+    ],
+
     // Configure
     'import/no-extraneous-dependencies': [
       'error',
