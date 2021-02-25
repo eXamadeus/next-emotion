@@ -1,0 +1,31 @@
+import { css } from '@emotion/core'
+import { Meta, Story, Preview, ArgsTable } from '@storybook/addon-docs/blocks'
+
+import { Title } from './Title.component'
+
+<Meta title='Components/Title' component={Title} />
+
+# Title
+
+export const Template = (args) => <Title {...args} />
+
+<Preview>
+  <Story name='Example'>
+    <Title
+      content={'Example Title'}
+      css={css`
+        color: black;
+      `}
+    />
+  </Story>
+</Preview>
+
+## Controlled Example
+
+<Story
+  name='Configurable'
+  args={{ content: 'You can edit my props!', css: { 'color': 'blue', 'font-style': 'italic' } }}>
+  {Template.bind({})}
+</Story>
+
+<ArgsTable story={'Configurable'} />
