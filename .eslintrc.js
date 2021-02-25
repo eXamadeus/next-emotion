@@ -58,7 +58,7 @@ module.exports = {
       'error',
       {
         paths: [
-          // Emotion 11 is a mess...let's stay with 10 for now...
+          // Emotion 11 is a mess...force the right imports...
           { name: '@emotion/react', message: 'Please import from "@emotion/core" instead.' },
           { name: '@emotion/css', message: 'Please import from "@emotion/core" instead.' },
         ],

@@ -13,7 +13,7 @@ export const Template = (args) => <Title {...args} />
   <Story name='Example'>
     <Title
       content={'Example Title'}
-      css={css`
+      styles={css`
         color: black;
       `}
     />
@@ -24,7 +24,7 @@ export const Template = (args) => <Title {...args} />
 
 <Story
   name='Configurable'
-  args={{ content: 'You can edit my props!', css: { 'color': 'blue', 'font-style': 'italic' } }}>
+  args={{ content: 'You can edit my props!', styles: { 'color': 'blue', 'font-style': 'italic' } }}>
   {Template.bind({})}
 </Story>
 
