@@ -59,7 +59,7 @@
     "@testing-library/dom": "^7.30.0",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
-    "@types/jest": "^26.0.21",
+    "@types/jest": "^26.0.22",
     "@types/next": "^9.0.0",
     "@types/node": "^14.14.35",
     "@types/styled-jsx": "^2.2.8",
