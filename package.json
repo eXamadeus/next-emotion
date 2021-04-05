@@ -51,7 +51,7 @@
     "@emotion/babel-plugin": "^11.1.2",
     "@emotion/babel-preset-css-prop": "^11.2.0",
     "@emotion/eslint-plugin": "^11.2.0",
-    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-actions": "^6.2.2",
     "@storybook/addon-docs": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
     "@storybook/addons": "^6.1.21",
