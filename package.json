@@ -68,7 +68,7 @@
     "babel-loader": "^8.2.2",
     "chromatic": "^5.7.1",
     "cypress": "^6.8.0",
-    "eslint": "^7.23.0",
+    "eslint": "^7.24.0",
     "eslint-config-defaults": "^9.0.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
