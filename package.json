@@ -57,7 +57,7 @@
     "@storybook/addons": "^6.1.21",
     "@storybook/react": "^6.2.8",
     "@testing-library/dom": "^7.30.3",
-    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@types/jest": "^26.0.22",
     "@types/next": "^9.0.0",
