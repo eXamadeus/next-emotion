@@ -87,7 +87,7 @@
     "regenerator-runtime": "^0.13.7",
     "start-server-and-test": "^1.12.6",
     "ts-node": "^10.1.0",
-    "typescript": "^4.3.4",
+    "typescript": "^4.3.5",
     "webpack": "^5.45.1"
   },
   "jest": {
