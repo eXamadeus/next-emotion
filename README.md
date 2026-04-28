@@ -1,6 +1,8 @@
+> [!IMPORTANT]
+> This template repo is no longer maintained!
+
 [![Storybook](https://img.shields.io/badge/Chromatic-Storybook-green)](https://master--5ff5b5e3816aa60021b27e34.chromatic.com/)
 [![Chromatic Library](https://img.shields.io/badge/Chromatic-Library-green)](https://www.chromatic.com/library?appId=5ff5b5e3816aa60021b27e34&branch=master)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=eXamadeus/next-emotion)](https://dependabot.com)
 
 # Next.js Template
 
